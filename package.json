@@ -1,0 +1,15 @@
+{
+  "name": "commitlint-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "bad": "echo \"feat: some feature (PREFIX-123)\" | commitlint --config .commitlintrc.json",
+    "good": "echo \"feat: some feature (PREFIX-123)\" | commitlint --config commitlint.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2"
+  }
+}
